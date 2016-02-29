@@ -1,0 +1,10 @@
+<h1> Product Page </h1>
+<div>
+  <!-- <div ui-grid="{data: productData}" class="myGrid"></div> -->
+  <div ng-repeat="data in productData">
+    <hr><div><b>Type: </b>{{data.type}}</div></br>
+    <div><b>Color: </b>{{data.color}}</div></br>
+    <div><b>Size: </b>{{data.size}}</div>
+  </div>
+  <hr>
+</div>
